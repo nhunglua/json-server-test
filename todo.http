@@ -10,23 +10,14 @@ POST {{baseUrl}}/todos
 Content-Type: application/json
 
 {
-  "title": "New Todo",
+  "title": "new",
+  "id": 11,
+  "status": "active"
 }
 
 ###
-# @name updateTodo
-PATCH  http://localhost:3000/api/todos/2
-Content-Type: application/json
-
-{
-  "title": "new",
-  "id": 2,
-  "status": "active"
-},
-
-###
 # @name removeTodo
-DELETE   http://localhost:3000/api/todos/4
+DELETE   http://localhost:3000/api/todos/11
 Content-Type: application/json
 
 
