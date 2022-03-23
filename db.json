@@ -19,7 +19,7 @@
   ],
   "comments": [],
   "products": [
-    { 
+    {
       "name": "459-577-5739"
     },
     {
@@ -81,6 +81,23 @@
     {
       "id": "Unde in modi modi dolorem cum.",
       "name": "231-904-0427"
+    }
+  ],
+  "todos": [
+    {
+      "title": "Jquey Plugin",
+      "id": 1,
+      "status": "completed"
+    },
+    {
+      "title": "Gulp",
+      "id": 2,
+      "status": "active"
+    },
+    {
+      "title": "Jquey Plugin",
+      "id": 3,
+      "status": "completed"
     }
   ]
 }
