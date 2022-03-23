@@ -20,7 +20,9 @@ Content-Type: application/json
 
 {
   "title": "new",
-}
+  "id": 2,
+  "status": "active"
+},
 
 ###
 # @name removeTodo
