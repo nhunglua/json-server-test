@@ -1,41 +1,21 @@
 @baseUrl = http://localhost:3000/api
 
-### @name getPosts
-GET {{baseUrl}}/products
+### @name getTodos
+GET {{baseUrl}}/todos
 
 ###
 
-# @name addNewPost
-POST {{baseUrl}}/posts
+# @name addNewTodo
+POST {{baseUrl}}/todos
 Content-Type: application/json
 
 {
-  "title": "test 2",
-  "author": "author 2"
+  "title": "new",
+  "id": 11,
+  "status": "active"
 }
 
 ###
-# @name updatePost
-PATCH  http://localhost:3000/api/posts/2
+# @name removeTodo
+DELETE   http://localhost:3000/api/todos/11
 Content-Type: application/json
-
-{
-  "title": "test 2",
-  "author": "author 2"
-}
-
-###
-# @name removePost
-DELETE   http://localhost:3000/api/posts/4
-Content-Type: application/json
-
-
-
-
-
-
-
-
-
-
-
