@@ -85,19 +85,19 @@
   ],
   "todos": [
     {
-      "title": "Jquey Plugin",
-      "id": 1,
-      "status": "completed"
+      "title": "edit",
+      "isComplete": true,
+      "id": 1
     },
     {
       "title": "Gulp",
       "id": 2,
-      "status": "active"
+      "isComplete": false
     },
     {
       "title": "Jquey Plugin",
       "id": 3,
-      "status": "completed"
+      "isComplete": false
     }
   ]
 }

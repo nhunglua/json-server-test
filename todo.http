@@ -12,8 +12,19 @@ Content-Type: application/json
 {
   "title": "new",
   "id": 11,
+  "isComplete": false
+}
+
+###
+# @name updatePost
+PUT  http://localhost:3000/api/todos/1
+Content-Type: application/json
+
+{
+  "title": "edit",
   "status": "active"
 }
+
 
 ###
 # @name removeTodo
